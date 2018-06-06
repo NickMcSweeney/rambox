@@ -1,0 +1,1 @@
+sencha app build && cp app/package.json build/production/Rambox/ && npm --prefix ./build/production/Rambox/ install ./build/production/Rambox/ && npm run clean && npm run pack:osx && npm run build:osx;
